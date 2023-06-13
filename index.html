@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -171,8 +173,36 @@
       <div id="contact" class="request">
          <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
+               <div class="col-md-12"> 
+
+                  <style>
+                     html, body {
+                         margin: 0;
+                         padding: 0;
+                     }
+                 
+                     .iframe-container {
+                         position: relative;
+                         width: 100%;
+                         padding-bottom: 56.25%; /* ajusta esta proporción según tus necesidades */
+                         height: 0;
+                         overflow: hidden;
+                     }
+                 
+                     .iframe-container iframe {
+                         position: absolute;
+                         top: 0;
+                         left: 0;
+                         width: 100%;
+                         height: 100%;
+                     }
+                 </style>
+                 </head>
+                 <body>
+                     <div class="iframe-container">
+                         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7r33ef0fCUJR_4i56gXheHLpeLZ_JTThqA3NntHDhKgrK3-imUCGeinlhj_fZDODTQbn350aspTbg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                     </div>
+                  <div class="titlepage"> 
                      <h2>Dejanos tu consulta</h2>
                      <span>Nuestro equipo se pondra en contacto contigo a la brevedad.</span>
                   </div>
